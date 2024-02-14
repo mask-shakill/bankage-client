@@ -1,4 +1,5 @@
 import Balance from "@/components/Available-Balance/Balance";
+import Deposit from "@/components/Deposit/Deposit";
 import React from "react";
 
 const Home = () => {
@@ -7,7 +8,7 @@ const Home = () => {
       <section className="h-[300px] w-full bg-green-950 rounded-lg grid grid-cols-5">
         <div className="col-span-2 flex flex-col justify-around ml-20">
           <Balance />
-          <Balance />
+          <Deposit />
         </div>
         <div className="col-span-1 flex items-center justify-center">
           <Balance />
